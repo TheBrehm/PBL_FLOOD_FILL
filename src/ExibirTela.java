@@ -12,7 +12,6 @@ public class ExibirTela {
     }
 
     public void exibir() {
-        int qtdade = 0;
         try {
             File dir = new File(pasta);
             String[] nomesArquivos = dir.list((d, nome) -> nome.endsWith(".png"));
@@ -34,7 +33,6 @@ public class ExibirTela {
                     File f = new File(pasta + "/" + nomesArquivos[i]);
                     BufferedImage img = ImageIO.read(f);
                     label.setIcon(new ImageIcon(img));
-                    qtdade = nomesArquivos.length + 1;
                 }
 
 
