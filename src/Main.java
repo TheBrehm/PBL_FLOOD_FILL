@@ -30,14 +30,14 @@ public class Main {
             ExibirTela exibirTela = new ExibirTela("animacao_pilha");
             exibirTela.exibir();
 
-//            // Execucao com Fila
-//            BufferedImage imagemFila = copiarImagem(imagem);
-//            FloodFill floodFillFila = new FloodFill(imagemFila);
-//            floodFillFila.preencherFila(x, y, "animacao_fila");
-//            ImageIO.write(floodFillFila.getImagem(), "png", new File("resultado_fila.png"));
-//            System.out.println("SALVANDO: resultado_fila.png");
-//            ExibirTela exibirTela = new ExibirTela("animacao_pilha");
-//            exibirTela.exibir();
+        //    // Execucao com Fila
+        //    BufferedImage imagemFila = copiarImagem(imagem);
+        //    FloodFill floodFillFila = new FloodFill(imagemFila);
+        //    floodFillFila.preencherFila(x, y, "animacao_fila");
+        //    ImageIO.write(floodFillFila.getImagem(), "png", new File("resultado_fila.png"));
+        //    System.out.println("SALVANDO: resultado_fila.png");
+        //    ExibirTela exibirTela = new ExibirTela("animacao_fila");
+        //    exibirTela.exibir();
 
 
             System.out.println("\nFINALIZANDO");
